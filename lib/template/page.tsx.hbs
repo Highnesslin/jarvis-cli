@@ -1,0 +1,15 @@
+import React, { FC } from 'react';
+import styles from './{{ pageName }}.module.less';
+
+interface I{{ pageName }}Props {
+  className?: string
+}
+const {{ pageName }}:FC<I{{ pageName }}Props> = () => {
+  return (
+    <div className={styles['{{ pageName }}']}>
+      {{ pageName }}
+    </div>
+  );
+}
+
+  export default {{ pageName }};
